@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membership</title>
+        <nav>
+            <div class="logo">
+                <img id="IRON" src="scale.html.jfif" alt="GYM">
+                <h2>IRON FITNESS</h2>
+            </div>
+            <div class="nav-link">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="trainers.html">trainers</a>
+                <a href="contact.html">contact</a>
+            </div>
+        </nav>
+        <style>
+            nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                background-color: black;
+                color: white;
+            }
+            nav a{
+                color: yellow;
+                text-decoration: double;
+                margin: 0.5px;
+            }
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+            .nav-link{
+                display: flex;
+                align-items: center;
+                gap: 40px
+            }
+            #IRON{
+                height: 150px;
+                width: 150px;
+                border-radius: 200px;
+            }
+            footer{
+                background-color: gray;
+                color: white;
+                text-align: center;
+            }
+            footer a{
+                color: yellow;
+                text-decoration: none;
+                margin: 10px;
+            }
+            .cards{
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+            .card{
+                   width: 250px;
+                   padding: 20px;
+                   background: gold;
+                   border-radius: 15px;
+                   text-align: center;
+                   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                 }
+            .cards:hover{
+                transform: scale(1.05);
+                transition: 1.5s;
+            }
+            button{
+                border-radius: 150px;
+                background-color: gold;
+                color: black;
+                transition: 1.5s;
+            }
+            button:hover{
+                transform:scale(1.25);
+                transition: 1s;
+            }
+            #title{
+                background-color: black;
+                color: white;
+            }
+            body{
+                text-align: center;
+            }
+            table{
+                width: 80%;
+                margin:50px auto;
+                border-collapse:collapse;
+            }
+            th, td{
+                border: 1px solid #ddd;
+                padding: 15px;
+                text-align: center;
+            }
+            th{
+                background-color: orange;
+                color:white;
+            }
+            #plan{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <hr>
+    <body>
+            <h1 id="title">PLANS</h1>
+            <hr>
+            <h3>Choose the plan which fits your fitness journey:</h3>
+        <section class="membership">
+            <div class="cards">
+                <div class="card">
+                    <h2>PLATINUM</h2>
+                    <p>Price: ₹2499</p>
+                    <p>✅Everything in Gold</p>
+                    <p>✅Unlimited Classes</p>
+                    <p>✅Body Analysis</p>
+                    <p>✅VIP Support</p>
+                    <hr>
+                    <button>JOIN NOW</button>
+                </div>
+            <div class="card">
+                <h2>GOLD</h2>
+                <p>Price: ₹1499</p>
+                <p>✅Everything in Silver</p>
+                <p>✅Personal Trainer</p>
+                <p>✅Diet plan</p>
+                <hr>
+                <button>JOIN NOW</button>
+                </div>
+                <div class="card">
+                    <h2>SILVER</h2>
+                    <p>Price: ₹999</p>
+                    <p>✅Gym Access</p>
+                    <p>✅Cardio Area</p>
+                    <p>✅Locker</p>
+                    <hr>
+                    <button>JOIN NOW</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="compare">
+            <h1 id="plan">Comparison</h1>
+            <Table>
+                <tr>
+                    <th>Features</th>
+                    <th>SILVER</th>
+                    <th>GOLD</th>
+                    <th>PLATINUM</th>
+                </tr>
+                <tr>
+                    <td>Gym Access</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                </tr>
+                <tr>
+                    <td>Personal Trainer</td>
+                    <td>❌</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                </tr>
+                <tr>
+                    <td>Diet Plan</td>
+                    <td>❌</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                </tr>
+            </Table>
+        </section>
+        <hr>
+        <h1>Membership Benefits:</h1>
+        <section class="liquid">
+            <div class="cards">
+                <div class="card">
+                    <h3>Mordern Equipments</h3>
+                </div>
+                <div class="card">
+                    <h3>Diet Guidance</h3>
+                </div>
+                <div class="card">
+                    <h3>Locker facility</h3>
+                </div>
+                <div class="card">
+                    <h3>Certified Trainers</h3>
+                </div>
+                <div class="card">
+                <h3>Open 24/7</h3>
+                </div>
+                <div class="card">
+                    <h3>Free wifi</h3>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="faq">
+        <h1>Frequently Asked Questions:</h1>
+        <h3>Can beginners join?</h3>
+        <p>Yes, Our trainers help the beginners from the first day</p>
+        <h3>What are your opening hours</h3>
+        <p>We are open 24/7</p>
+        <h3>Do you give Diet plans?</h3>
+        <p>Yes, but Only Platinum and Gold level Members get it.</p>
+        </section>
+        <hr>
+        <H3>CLICK BELOW TO JOIN</H3>
+        <a href="contacts.html">
+            <button>JOIN NOW</button>
+        </a>
+        <hr>
+        <footer>
+            <h1>IRON FITNESS</h1>
+            <h2>Those were the specifications based on your plan</h2>
+            <p>Quick links</p>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="trainers.html">trainers</a>
+            <a href="contacts.html">contact</a>
+            <h3>Plan</h3>
+            <p>PLATINUM:Best</p>
+            <p>GOLD: Highest</p>
+            <p>Silver: Average</p>
+            <p>Contact</p>
+            <p>ironfitness@gmail.com</p>
+            <p>+91 9876543210</p>
+            <hr>
+            <p>© 2026 IRON FITNESS. All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
