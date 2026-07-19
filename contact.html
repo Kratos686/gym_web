@@ -2,5 +2,186 @@
 <html>
     <head>
         <title>Contact</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <nav>
+            <div class="logo">
+                <img id="IRON" src="scale.html.jfif" alt="GYM">
+                <h2>IRON FITNESS</h2>
+            </div>
+            <div class="nav-link">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="trainers.html">trainers</a>
+                <a href="contact.html">contact</a>
+            </div>
+        </nav>
+        <hr>
+        <style>
+            body{
+                text-align: center;
+                background-color: black;
+                color: white;
+            }
+             nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                background-color: black;
+                color: white;
+            }
+            nav a{
+                color: yellow;
+                text-decoration: double;
+                margin: 0.5px;
+            }
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+            .nav-link{
+                display: flex;
+                align-items: center;
+                gap: 40px
+            }
+             #IRON{
+                height: 150px;
+                width: 150px;
+                border-radius: 200px;
+            }
+             footer{
+                background-color: gray;
+                color: white;
+                text-align: center;
+            }
+            footer a{
+                color: yellow;
+                text-decoration: double;
+                margin: 20px;
+            }
+             button{
+                border-radius: 150px;
+                background-color: gold;
+                border-color: white;
+                color: black;
+                transition: 1.5s;
+                cursor: pointer;
+            }
+            button:hover{
+                transform:scale(1.25);
+                transition: 1s;
+            }
+             .cards{
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+            }
+            .card{
+                   width: 250px;
+                   padding: 20px;
+                   background: gold;
+                   border-radius: 30px;
+                   text-align: center;
+                   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                 }
+            .cards:hover{
+                transform: scale(1.05);
+                transition: 1.5s;
+            }
+            #left{
+                color: black;
+            }
+            #fork{
+                color: aqua;
+            }
+            #facebook{
+                color: blue;
+            }
+            #youtube{
+                color: red;
+            }
+            #instagram{
+                color: #E1306C;
+            }
+            .social{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.social a{
+    font-size: 35px;
+    color: black;
+    transition: 0.3s;
+}
+
+.social a:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+        </style>
     </head>
+    <body>
+         <section class="hero">
+        <div class="hero-text">
+            <h1>Contact Us</h1>
+            <p>Have a question? We're here to help</p>
+            <p>Let's start your fitness journey today</p>
+            <a href="login.html">
+                <button>Join Now</button>
+            </a>
+            <a href="contact.html">
+                <button>Call us</button>
+            </a>
+        </div>
+        </section>
+        <hr>
+         <section class="contact">
+            <div class="cards">
+                <div class="card">
+                    <h1>📞Phone:</h1><br>
+                    <h3 id="left">+91 9876543210</h3>
+                </div>
+                <div class="card">
+                    <h1>📧Email:</h1><br>
+                    <h3 id="left">info@gmail.com</h3>
+                </div>
+                <div class="card">
+                    <h1>📍Address:</h1><br>
+                    <h3 id="left">Dhanbad, Jharkhand</h3>
+                </div>
+                <div class="card">
+                    <h1>Hours</h1>
+                    <h2 id="left">Mon - Sat</h2>
+                    <h3 id="left">6 AM - 10PM</h3>
+                </div>
+                    </div>
+         </section>
+         <hr>
+         <h1>Also find us here:</h1>
+         <div class="social">
+            <a href="https://www.instagram.com/go_hom.e/"><i id="instagram" class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i id="facebook" class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/"><i id="youtube" class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/"><i id="fork" class="fa-brands fa-twitter"></i></a>
+         </div>
+         <hr>
+        <footer>
+             <h1>IRON FITNESS</h1>
+            <h2>Hope you don't find any difficulty in finding us!!!!</h2>
+            <p>Building stronger bodies since 2026</p>
+            <p>Quick links</p>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="membership.html">membership</a>
+            <a href="contacts.html">contact</a>
+            <p>Contact</p>
+            <p>ironfitness@gmail.com</p>
+            <p>+91 9876543210</p>
+            <hr>
+            <p>© 2026 IRON FITNESS. All Rights Reserved</p>
+        </footer>
+    </body>
 </html>
